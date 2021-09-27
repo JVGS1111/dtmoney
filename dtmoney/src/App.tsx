@@ -1,6 +1,12 @@
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  color: rebeccapurple
+`
+
 export function App() {
   return (
-    <h1>hello gdas</h1>
+    <Title>hello gdas</Title>
   );
 }
 
