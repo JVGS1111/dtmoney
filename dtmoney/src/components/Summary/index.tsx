@@ -20,7 +20,7 @@ export function Summary(props:any){
               </header>
               <strong>- R$500,00</strong>
           </div>
-          <div>
+          <div className="highlight-background">
               <header>
                   <p>Total</p>
                   <img src={total} alt="total" />
