@@ -1,12 +1,18 @@
-import styled from 'styled-components';
+//import styled from 'styled-components';
+import { Dashboard } from './components/Dashboard';
+import { Header } from './components/Header';
+import { GlobalStyle } from './styles/global';
 
-const Title = styled.h1`
-  color: rebeccapurple
-`
+
 
 export function App() {
   return (
-    <Title>hello gdas</Title>
+    <>
+      <Header/>
+      <GlobalStyle/>
+      <Dashboard/>
+    </>
+    
   );
 }
 
