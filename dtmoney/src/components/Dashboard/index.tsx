@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { Summary } from '../Summary';
+import { TransactionTable } from '../TransactionTable';
 
 import { Container } from './styles';
 
 
-export function Dashboard(){
-    return(
+export function Dashboard() {
+    return (
         <Container>
-            <Summary>
-                
-            </Summary>
+            <Summary />
+            <TransactionTable />
         </Container>
     );
 }
